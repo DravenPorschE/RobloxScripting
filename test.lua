@@ -1,9 +1,5 @@
-local myFolder = workspace:FindFirstChild("Farm")
+local replicatedStorage = game:GetService("ReplicatedStorage")
 
-if myFolder and myFolder:IsA("Folder") then
-    for _, child in pairs(myFolder:GetChildren()) do
-        print("Child name:", child.Name)
-    end
-else
-    warn("MyFolder not found or is not a Folder")
+for _, obj in pairs(replicatedStorage:GetChildren()) do
+    print("Found:", obj.Name, "| ClassName:", obj.ClassName)
 end
