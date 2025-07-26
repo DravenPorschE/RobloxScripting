@@ -1,4 +1,4 @@
-local myFolder = workspace:FindFirstChild("WeatherVisuals")
+local myFolder = workspace:FindFirstChild("Farm")
 
 if myFolder and myFolder:IsA("Folder") then
     for _, child in pairs(myFolder:GetChildren()) do
